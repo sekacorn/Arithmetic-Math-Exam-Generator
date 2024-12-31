@@ -78,6 +78,7 @@ Each question is placed into a neatly formatted LaTeX document, along with a mat
 ---
 
 ## Usage
+
 Navigate to the directory where the files are located in your terminal or command prompt.
 
 Run the script:
@@ -85,6 +86,7 @@ Run the script:
 ```bash
 	python Generate_Arithmetic_Math_Exam.py
  ```
+
 Follow the prompts:
 
  1. Enter the desired difficulty level (1-3, 4, 4-6, or 6-7).
@@ -95,11 +97,11 @@ Follow the prompts:
 ---
 
 ## Output Files
+
   ```bash
 	  questions.tex
 	  answers.tex
   ```
-
 
 Contains a LaTeX preamble (including \documentclass and packages like amsmath).
 Lists each question in an enumerated format.
@@ -117,21 +119,21 @@ Or you can use free online '.tex to PDF' conversion tools from the internet to c
 ---
 
 ## Customization
-	- Difficulty Ranges: Adjust the numeric range for each difficulty level in the generate_problem function.
-	- Operations: Edit the operations list (add multiplication, exponentiation, etc.).
-	- Question Phrasing: Modify the question text or instructions in the LaTeX content sections for a more personal touch.
+- Difficulty Ranges: Adjust the numeric range for each difficulty level in the generate_problem function.
+- Operations: Edit the operations list (add multiplication, exponentiation, etc.).
+- Question Phrasing: Modify the question text or instructions in the LaTeX content sections for a more personal touch.
 
 ---
 
 ## Troubleshooting
-	- LaTeX errors: Ensure \usepackage{amsmath} is present and your LaTeX distribution is up to date.
-	- ZeroDivisionError or unusual generation: Check that the numeric ranges are set correctly and that you are generating questions appropriate for your difficulty level.
-	- Python environment issues: Confirm you’re using Python 3.6 or above and that you can run Python scripts in your current environment.
+- LaTeX errors: Ensure \usepackage{amsmath} is present and your LaTeX distribution is up to date.
+- ZeroDivisionError or unusual generation: Check that the numeric ranges are set correctly and that you are generating questions appropriate for your difficulty level.
+- Python environment issues: Confirm you’re using Python 3.6 or above and that you can run Python scripts in your current environment.
 	
 ---
 
 ## License
-	This project is licensed under the MIT License. Feel free to use, modify, and distribute it. If it brings you a little extra peace and clarity in your day, and for
+This project is licensed under the MIT License. Feel free to use, modify, and distribute it. If it brings you a little extra peace and clarity in your day, and for
 	mankind.
 
 
