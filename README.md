@@ -1,7 +1,7 @@
 # Arithmetic & Algebra Exam Generator
 
 Greetings Jolly educator! This Python application helps you create **randomized** arithmetic Exam in LaTeX format.
- It can generate questions tailored to various grade levels (1–3, 4, 4–6, and 6–7). Plus, it now prompts you to **optionally include algebra questions**, giving your students the perfect challenge when they’re ready for it.  
+ It can generate questions tailored to various grade levels (1–3, 4, 4–6, and 6–8). Plus, it now prompts you to **optionally include algebra questions**, giving your students the perfect challenge when they’re ready for it.  
 
 The script automatically creates two `.tex` files:
 1. **`questions.tex`** – where all your test questions appear.  
@@ -43,7 +43,7 @@ Each question is placed into a neatly formatted LaTeX document, along with a mat
    - **1st to 3rd Grade level Math** (simple addition and subtraction, can also include algebra if chosen)  
    - **4th Grade level Math** (addition, subtraction, division, can also include algebra if chosen)  
    - **5th to 6th Grade level Math** (addition, subtraction, division, fraction multiplication. can also include algebra if chosen)  
-   - **6th to 7th Grade level Math** (“hard,” can also include algebra if chosen)
+   - **6th to 8th Grade level Math** (“hard,” can also include algebra if chosen)
 
 2. **Algebra Prompt**:  
    - **Optional**: Choose whether to add algebra questions specifically for 6th–7th grade or keep it at standard arithmetic.
@@ -89,7 +89,7 @@ Run the script:
 
 Follow the prompts:
 
- 1. Enter the desired difficulty level (1-3, 4, 4-6, or 6-7).
+ 1. Enter the desired difficulty level (1-3, 4, 4-6, or 6-8).
  2. Specify the total number of questions.
  3. State how many points each question should be worth.
  4. After that, the program automatically creates two files in the current directory:
